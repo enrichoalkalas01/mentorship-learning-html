@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    /* background-color: gray; */
+}
+
+.nav {
+    width: 100%;
+    height: 100%; /* 100% karena height akan mengikuti header */
+
+    /* style untuk item didalam nya */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrapper {
+    width: auto;
+    height: auto;
+    padding-left: 2.5%;
+    /* background-color: aquamarine; */
+}
+
+.wp-logo {
+    width: auto;
+    height: auto;
+    font-size: 24px;
+}
+
+.menu-wrapper {
+    width: auto;
+    height: auto;
+    /* background-color: brown; */
+}
+
+.ul-menu-wrapper {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.li-menu-wrapper {
+    list-style: none;
+}
+
+.button-wrapper {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2.5%;
+    /* background-color: burlywood; */
+}
+
+.button-cta {
+    /* background-color: #212020; */
+    color: #212020;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* border: unset; */
+    background-color: unset;
+    border-radius: 20px;
+    border-color: #212020;
+}
